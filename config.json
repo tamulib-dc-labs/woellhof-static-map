@@ -219,5 +219,329 @@
       },
       "properties": {}
     }
+  },
+  {
+    "name": "Mexico Regia",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/29a6609d6602434dbf122e9dc0b63437",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/e495184f-3f13-3343-8ed4-7d093ca78f0c/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.22833333333334,
+              19.285
+            ],
+            [
+              -99.02888888888889,
+              19.285
+            ],
+            [
+              -99.02888888888889,
+              19.47611111111111
+            ],
+            [
+              -99.22833333333334,
+              19.47611111111111
+            ],
+            [
+              -99.22833333333334,
+              19.285
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Agronavtica",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/4c683f5b14e45dc3ddb1fe4855161b53",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/802e9c41-3fe6-3f5c-8133-ef108c24f96d/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.883333333333333,
+              30.033333333333335
+            ],
+            [
+              42.36666666666667,
+              30.033333333333335
+            ],
+            [
+              42.36666666666667,
+              47.5
+            ],
+            [
+              4.883333333333333,
+              47.5
+            ],
+            [
+              4.883333333333333,
+              30.033333333333335
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Nieuwe Pas-kaert Vande oost Kust van Yrland",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/710b141534e1f8c865d040f08b7c71b7",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/4f37ee2e-7b5d-3e10-9d86-28bc4fadf0dc/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.833333333333333,
+              51.81666666666667
+            ],
+            [
+              -2.6166666666666667,
+              51.81666666666667
+            ],
+            [
+              -2.6166666666666667,
+              54.983333333333334
+            ],
+            [
+              -6.833333333333333,
+              54.983333333333334
+            ],
+            [
+              -6.833333333333333,
+              51.81666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Geographische beschryvinge, van de wandeling der apostelen ende de reysen Pauli",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/00baf53737f52bdf8d827f6b77c6327d",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/3989a5e8-1731-3994-97fe-16319b207f5c/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.483333333333333,
+              28.933333333333334
+            ],
+            [
+              48.96666666666667,
+              28.933333333333334
+            ],
+            [
+              48.96666666666667,
+              45.766666666666666
+            ],
+            [
+              12.483333333333333,
+              45.766666666666666
+            ],
+            [
+              12.483333333333333,
+              28.933333333333334
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Brightstowe",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/a543c28b1b81dd9e80e21340e22a2391",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/62f0a5d4-5b55-39ec-91c1-e950a7bc94b2/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.6077777777777778,
+              51.44444444444444
+            ],
+            [
+              -2.5791666666666666,
+              51.44444444444444
+            ],
+            [
+              -2.5791666666666666,
+              51.46083333333333
+            ],
+            [
+              -2.6077777777777778,
+              51.46083333333333
+            ],
+            [
+              -2.6077777777777778,
+              51.44444444444444
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "The countye of Monmouth",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/d802111b1da15a87940c0df0876926f8",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/c2a7c7b6-a6b8-34b1-9ebe-6e6dc1d718fe/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.3530555555555557,
+              51.473888888888894
+            ],
+            [
+              -2.493333333333333,
+              51.473888888888894
+            ],
+            [
+              -2.493333333333333,
+              51.890277777777776
+            ],
+            [
+              -3.3530555555555557,
+              51.890277777777776
+            ],
+            [
+              -3.3530555555555557,
+              51.473888888888894
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Tabv. moder. Gallie.",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/4f0474357e855da2c1d1b3cdd1c09726",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/99682705-6bb0-3020-b649-b8246472fc3e/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.4,
+              42.833333333333336
+            ],
+            [
+              9.833333333333334,
+              42.833333333333336
+            ],
+            [
+              9.833333333333334,
+              51.31666666666667
+            ],
+            [
+              -7.4,
+              51.31666666666667
+            ],
+            [
+              -7.4,
+              42.833333333333336
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Salczburga",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/2e2002fdb21d6d2af3d6cb4d7d5921e5",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/548073f3-af89-3b3f-aaa7-8e4737ad3c9b/1075,2512,7589,3492/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.005277777777778,
+              47.78722222222222
+            ],
+            [
+              13.081944444444444,
+              47.78722222222222
+            ],
+            [
+              13.081944444444444,
+              47.82611111111112
+            ],
+            [
+              13.005277777777778,
+              47.82611111111112
+            ],
+            [
+              13.005277777777778,
+              47.78722222222222
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Carte geographicque des postes qui traversent la France ",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/a1f464f17fd51b789628039c2111e43d",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/50367f1d-2783-3dc6-9032-25a94c485ab1/873,495,8082,6298/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.016666666666667,
+              42.1
+            ],
+            [
+              9.966666666666667,
+              42.1
+            ],
+            [
+              9.966666666666667,
+              51.63333333333333
+            ],
+            [
+              -6.016666666666667,
+              51.63333333333333
+            ],
+            [
+              -6.016666666666667,
+              42.1
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
   }
 ]
