@@ -80,5 +80,23 @@ fetch('config.json')
     });
 
     allLayers.addTo(map);
-    map.fitBounds(allLayers.getBounds());
+    var initialBounds = allLayers.getBounds();
+    map.fitBounds(initialBounds);
+
+    var ResetControl = L.Control.extend({
+      options: { position: 'topleft' },
+      onAdd: function () {
+        var btn = L.DomUtil.create('button', 'leaflet-bar');
+        btn.innerHTML = '&#8634;';
+        btn.title = 'Reset view';
+        btn.style.cssText = 'background:#fff;border:none;width:34px;height:34px;font-size:20px;cursor:pointer;line-height:34px;';
+        L.DomEvent.disableClickPropagation(btn);
+        btn.addEventListener('click', function () {
+          map.closePopup();
+          map.fitBounds(initialBounds);
+        });
+        return btn;
+      }
+    });
+    new ResetControl().addTo(map);
   });
