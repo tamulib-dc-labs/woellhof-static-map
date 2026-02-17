@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Huntingdon",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/bd39ad0ea838fd22ef5f7ccf28f551ee",
+    "geojson": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.4666666666666667,
+                  52.2
+                ],
+                [
+                  0.11666666666666667,
+                  52.2
+                ],
+                [
+                  0.11666666666666667,
+                  52.583333333333336
+                ],
+                [
+                  -0.4666666666666667,
+                  52.583333333333336
+                ],
+                [
+                  -0.4666666666666667,
+                  52.2
+                ]
+              ]
+            ]
+          },
+          "properties": {}
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tabvla decima Asiae continet Indiam",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/4fd8b0d8c9f751aded66251da95aeadd",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              63.916666666666664,
+              7.666666666666667
+            ],
+            [
+              97.56666666666666,
+              7.666666666666667
+            ],
+            [
+              97.56666666666666,
+              36.766666666666666
+            ],
+            [
+              63.916666666666664,
+              36.766666666666666
+            ],
+            [
+              63.916666666666664,
+              7.666666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Tabvla Asiae VII",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/21fa0fc6f1d8b4af2aa7ed58a70fcac0",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.25,
+              25.316666666666666
+            ],
+            [
+              76.15,
+              25.316666666666666
+            ],
+            [
+              76.15,
+              46.86666666666667
+            ],
+            [
+              53.25,
+              46.86666666666667
+            ],
+            [
+              53.25,
+              25.316666666666666
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  }
+]
