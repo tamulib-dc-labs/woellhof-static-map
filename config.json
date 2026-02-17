@@ -111,5 +111,77 @@
       },
       "properties": {}
     }
+  },
+  {
+    "name": "Plan de la Bataille d'Oudenaerde du 11 Juillet 1708",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/99c2838371619685b24c009f3ea987d8",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/592bb085-c6ed-3f92-8df0-2053e5f41116/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.526944444444444,
+              50.83222222222223
+            ],
+            [
+              3.685,
+              50.83222222222223
+            ],
+            [
+              3.685,
+              50.916666666666664
+            ],
+            [
+              3.526944444444444,
+              50.916666666666664
+            ],
+            [
+              3.526944444444444,
+              50.83222222222223
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Abissinorum sive Pretiosi Ioannis imperiũ",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/4973ba0c51543e7e05acf3f4c63ed25c",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/c1d5081f-7182-3f9c-8a74-a9a0af28d4ce/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -18.1,
+              -15.133333333333333
+            ],
+            [
+              55.18333333333333,
+              -15.133333333333333
+            ],
+            [
+              55.18333333333333,
+              24.116666666666667
+            ],
+            [
+              -18.1,
+              24.116666666666667
+            ],
+            [
+              -18.1,
+              -15.133333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
   }
 ]
