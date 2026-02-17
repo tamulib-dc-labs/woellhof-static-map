@@ -5,11 +5,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-map.on('click', function (e) {
+function showPopup(latlng) {
   var hits = [];
   entries.forEach(function (entry) {
     entry._layers.forEach(function (layer) {
-      if (layerContainsPoint(layer, e.latlng)) {
+      if (layerContainsPoint(layer, latlng)) {
         hits.push(entry);
       }
     });
@@ -25,9 +25,13 @@ map.on('click', function (e) {
   }).join('<hr style="margin:8px 0;">');
 
   L.popup()
-    .setLatLng(e.latlng)
+    .setLatLng(latlng)
     .setContent(html)
     .openOn(map);
+}
+
+map.on('click', function (e) {
+  showPopup(e.latlng);
 });
 
 function layerContainsPoint(layer, latlng) {
@@ -51,11 +55,27 @@ fetch('config.json')
       var featureLayers = [];
       geoLayer.eachLayer(function (l) { featureLayers.push(l); });
 
+      var center = geoLayer.getBounds().getCenter();
+      var marker = L.circleMarker(center, {
+        radius: 6,
+        color: '#800000',
+        fillColor: '#800000',
+        fillOpacity: 0.8
+      });
+      var bounds = geoLayer.getBounds();
+      marker.on('click', function (e) {
+        L.DomEvent.stopPropagation(e);
+        map.fitBounds(bounds, { padding: [50, 50] });
+        showPopup(center);
+      });
+      marker.addTo(allLayers);
+
       entries.push({
         name: entry.name,
         url: entry.url,
         thumbnail: entry.thumbnail,
-        _layers: featureLayers
+        _layers: featureLayers,
+        _marker: marker
       });
     });
 
