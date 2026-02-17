@@ -18,11 +18,14 @@ function showPopup(latlng) {
   if (hits.length === 0) return;
 
   var html = hits.map(function (entry) {
-    return '<a href="' + entry.url + '" target="_blank">' +
-      '<img src="' + entry.thumbnail + '" alt="' + entry.name + '" style="max-width:150px;display:block;margin-bottom:4px;">' +
-      entry.name +
-      '</a>';
-  }).join('<hr style="margin:8px 0;">');
+    return '<div class="popup-card">' +
+      '<a href="' + entry.url + '" target="_blank">' +
+        '<img class="popup-thumb" src="' + entry.thumbnail + '" alt="' + entry.name + '">' +
+        '<div class="popup-title">' + entry.name + '</div>' +
+        '<div class="popup-view">View in collection &#8599;</div>' +
+      '</a>' +
+    '</div>';
+  }).join('');
 
   L.popup()
     .setLatLng(latlng)
