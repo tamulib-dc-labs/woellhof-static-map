@@ -183,5 +183,41 @@
       },
       "properties": {}
     }
+  },
+  {
+    "name": "Carte du Mexique et de la Floride",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/48d0b1bf5628bf148def3832ad8e12a7",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/b444e731-c33f-35b4-9c7c-9bc552b67216/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -115.21666666666667,
+              6.966666666666667
+            ],
+            [
+              -59.31666666666667,
+              6.966666666666667
+            ],
+            [
+              -59.31666666666667,
+              44.45
+            ],
+            [
+              -115.21666666666667,
+              44.45
+            ],
+            [
+              -115.21666666666667,
+              6.966666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
   }
 ]
