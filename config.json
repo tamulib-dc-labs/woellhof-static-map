@@ -1,6 +1,6 @@
 [
   {
-    "name": "Huntingdon",
+    "name": "Huntington : both shire and shire towne with the ancient citie Ely described",
     "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/bd39ad0ea838fd22ef5f7ccf28f551ee",
     "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/9a2c6eed-eccc-335d-bb48-e953eb5eb368/full/pct:25/0/default.jpg",
     "geojson": {
@@ -41,7 +41,7 @@
     }
   },
   {
-    "name": "Tabvla decima Asiae continet Indiam",
+    "name": "Tabvla decima Asiae continet Indiam intra Gangem",
     "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/4fd8b0d8c9f751aded66251da95aeadd",
     "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/26e61af2-d2c1-3f31-b132-010dc991f3c7/full/pct:25/0/default.jpg",
     "geojson": {
