@@ -2,6 +2,7 @@
   {
     "name": "Huntingdon",
     "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/bd39ad0ea838fd22ef5f7ccf28f551ee",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/9a2c6eed-eccc-335d-bb48-e953eb5eb368/full/pct:25/0/default.jpg",
     "geojson": {
       "type": "FeatureCollection",
       "features": [
@@ -42,6 +43,7 @@
   {
     "name": "Tabvla decima Asiae continet Indiam",
     "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/4fd8b0d8c9f751aded66251da95aeadd",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/26e61af2-d2c1-3f31-b132-010dc991f3c7/full/pct:25/0/default.jpg",
     "geojson": {
       "type": "Feature",
       "geometry": {
@@ -77,6 +79,7 @@
   {
     "name": "Tabvla Asiae VII",
     "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/21fa0fc6f1d8b4af2aa7ed58a70fcac0",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/3f3cf52f-139f-3e6d-b49a-671032f235f9/full/pct:25/0/default.jpg",
     "geojson": {
       "type": "Feature",
       "geometry": {
