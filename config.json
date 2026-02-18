@@ -651,5 +651,185 @@
       },
       "properties": {}
     }
+  },
+  {
+    "name": "Plan de la ville de Bovrbovr en Flandre ...",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/cc29bc99-5524-33cb-a058-8fa6a3a558a2/full/pct:25/0/default.jpg",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/bef15d721999545a0b97950b765c912d",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.105277777777778,
+              50.8875
+            ],
+            [
+              2.3066666666666666,
+              50.8875
+            ],
+            [
+              2.3066666666666666,
+              50.972500000000004
+            ],
+            [
+              2.105277777777778,
+              50.972500000000004
+            ],
+            [
+              2.105277777777778,
+              50.8875
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Hesdinvm oppidum et castrum in expugnabile ...",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/28dc626a7b208ee0666eee353e7968d2",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/733037ed-43aa-3b14-92a4-7050cb10fe89/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.0302777777777776,
+              50.36833333333333
+            ],
+            [
+              2.0458333333333334,
+              50.36833333333333
+            ],
+            [
+              2.0458333333333334,
+              50.37916666666667
+            ],
+            [
+              2.0302777777777776,
+              50.37916666666667
+            ],
+            [
+              2.0302777777777776,
+              50.36833333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Descriptio Germaniae Inferioris",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/2fa58d9b9b22b957f1882050659cf2fa",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/0adbc20c-ec2e-35ae-9d23-163ee0bc55be/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.0,
+              48.81666666666667
+            ],
+            [
+              7.7,
+              48.81666666666667
+            ],
+            [
+              7.7,
+              53.61666666666667
+            ],
+            [
+              1.0,
+              53.61666666666667
+            ],
+            [
+              1.0,
+              48.81666666666667
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Comitatus Hollandiae tabula",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/0c5e41ecabb59a91ab5ad19739de68ef",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/87237373-771e-3437-a921-ae4b958d2fac/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.6333333333333333,
+              51.53333333333333
+            ],
+            [
+              5.966666666666667,
+              51.53333333333333
+            ],
+            [
+              5.966666666666667,
+              53.0
+            ],
+            [
+              3.6333333333333333,
+              53.0
+            ],
+            [
+              3.6333333333333333,
+              51.53333333333333
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Anverpia, nobile in Brabantia oppidum, parrim maritimum",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/992409c779d4e7188fdd65c508f3ec67",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/40be69d3-98d7-3157-854c-d7cde2c9d8e5/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.171944444444445,
+              51.18194444444444
+            ],
+            [
+              4.483611111111111,
+              51.18194444444444
+            ],
+            [
+              4.483611111111111,
+              51.323055555555555
+            ],
+            [
+              4.171944444444445,
+              51.323055555555555
+            ],
+            [
+              4.171944444444445,
+              51.18194444444444
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
   }
 ]
