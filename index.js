@@ -77,6 +77,8 @@ fetch('config.json')
         name: entry.name,
         url: entry.url,
         thumbnail: entry.thumbnail,
+        _bounds: bounds,
+        _geoLayer: geoLayer,
         _layers: featureLayers,
         _marker: marker
       });
@@ -102,4 +104,25 @@ fetch('config.json')
       }
     });
     new ResetControl().addTo(map);
+
+    function updateVisibility() {
+      var viewBounds = map.getBounds();
+      entries.forEach(function (entry) {
+        var visible = viewBounds.contains(entry._bounds);
+        if (visible) {
+          if (!map.hasLayer(entry._geoLayer)) {
+            entry._geoLayer.addTo(map);
+            entry._marker.addTo(map);
+          }
+        } else {
+          if (map.hasLayer(entry._geoLayer)) {
+            map.removeLayer(entry._geoLayer);
+            map.removeLayer(entry._marker);
+          }
+        }
+      });
+    }
+
+    map.on('moveend', updateVisibility);
+    updateVisibility();
   });
