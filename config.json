@@ -257,6 +257,42 @@
     }
   },
   {
+    "name": "Mexico Regia",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/29a6609d6602434dbf122e9dc0b63437",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/e495184f-3f13-3343-8ed4-7d093ca78f0c/full/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.9961111111111,
+              -13.558611111111112
+            ],
+            [
+              -71.89527777777778,
+              -13.558611111111112
+            ],
+            [
+              -71.89527777777778,
+              -13.501111111111111
+            ],
+            [
+              -71.9961111111111,
+              -13.501111111111111
+            ],
+            [
+              -71.9961111111111,
+              -13.558611111111112
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
     "name": "Agronavtica",
     "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/4c683f5b14e45dc3ddb1fe4855161b53",
     "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/802e9c41-3fe6-3f5c-8133-ef108c24f96d/full/pct:25/0/default.jpg",
