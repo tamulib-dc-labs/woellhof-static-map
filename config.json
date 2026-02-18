@@ -579,5 +579,77 @@
       },
       "properties": {}
     }
+  },
+  {
+    "name": "Cantvarbvry",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/43a910bba769e614eaa1d9ee8ed3034b",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL3dvZWxsaG9mLTJfb2JqZWN0cy8xMi9wYWdlcy9wYWdlXzAvZmlsZXMvRzU3NTQtQzI1XzE1ODhfLUI3X2EudGlm/1897,1548,4259,3311/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.071388888888889,
+              51.27388888888889
+            ],
+            [
+              1.087222222222222,
+              51.27388888888889
+            ],
+            [
+              1.087222222222222,
+              51.282222222222224
+            ],
+            [
+              1.071388888888889,
+              51.282222222222224
+            ],
+            [
+              1.071388888888889,
+              51.27388888888889
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  },
+  {
+    "name": "Gallia vetvs",
+    "url": "https://spotlight-pre.library.tamu.edu/spotlight/woellhof-maps-collection/catalog/e9b39e06e59768c28441f332638aaae7",
+    "thumbnail": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL3dvZWxsaG9mLTJfb2JqZWN0cy85L3BhZ2VzL3BhZ2VfMC9maWxlcy9HNTcyMi1TMV8tTzc3XzE2MjRfYS50aWY=/1739,1187,5756,5151/pct:25/0/default.jpg",
+    "geojson": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.733333333333333,
+              42.3
+            ],
+            [
+              8.716666666666667,
+              42.3
+            ],
+            [
+              8.716666666666667,
+              51.85
+            ],
+            [
+              -5.733333333333333,
+              51.85
+            ],
+            [
+              -5.733333333333333,
+              42.3
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
   }
 ]
