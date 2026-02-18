@@ -7,7 +7,9 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 function showPopup(latlng) {
   var hits = [];
+  var viewBounds = map.getBounds();
   entries.forEach(function (entry) {
+    if (!viewBounds.contains(entry._bounds)) return;
     entry._layers.forEach(function (layer) {
       if (layerContainsPoint(layer, latlng)) {
         hits.push(entry);
